@@ -1,0 +1,32 @@
+{
+  "name": "5calls-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capndesign/5calls.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "es2040": "^1.2.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "choo": "^4.0.0",
+    "lodash": "^4.17.2",
+    "query-string": "^4.2.3",
+    "xtend": "^4.0.1",
+    "xhr": "^2.3"
+  }
+}

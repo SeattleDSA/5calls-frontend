@@ -1,0 +1,86 @@
+.issues {
+  &__header {
+    padding: 1.5rem 0 .5rem;
+    text-align: center;
+    background-color: fade-out(#fff, 0.4);
+    margin-bottom: 1px;
+
+    &.is-active {
+      background-color: #fff;
+    }
+  }
+
+  &__title {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: bold;
+    margin: 0 0 0.9rem 0;
+    text-transform: uppercase;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      font-size: 0.1px;
+    }
+  }
+
+  &__logo {
+    width: 300px;
+    height: 84px;
+  }
+
+  &__subtitle {
+    color: $gray-dark;
+    font-size: 1.4rem;
+
+    input {
+      width: 250px;
+      margin-right: 10px;
+    }
+
+    button {
+      border-radius: 8px;
+    }
+  }
+}
+
+.issues-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &__item {
+    background-color: fade-out(#fff, .4);
+    margin-bottom: 1px;
+    padding: 0.6em 0.8rem;
+    position: relative;
+
+    &__title {
+      min-height: 3em;
+      font-size: 1.6rem;
+    }
+
+    &__summary {
+      font-size: 0.9rem;
+      text-align: right;
+    }
+
+    img {
+      position: absolute;
+      top: 20px;
+      right: -35px;
+    }
+
+    > * {
+      margin: 0;
+    }
+
+    &.is-active, &:hover {
+      background-color: #fff;
+    }
+
+    &:hover {
+      cursor: pointer;      
+    }
+  }
+}

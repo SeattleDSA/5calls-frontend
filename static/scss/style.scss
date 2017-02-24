@@ -1,0 +1,91 @@
+//@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,400i,700');
+//@import 'vendor/normalize';
+//@import 'variables-and-mixins';
+//@import 'elements';
+//@import 'utility';
+
+// Components
+@import 'layout';
+//@import 'issues';
+//@import 'hypothesis';
+//@import 'call';
+//@import 'about';
+
+body { padding-bottom: 70px;
+  background: url(/img/background.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-DSAred {
+  background-color: #ec1f27;
+}
+
+.bg-DSAblack {
+  background-color: #231F20;
+}
+
+.bg-DSAwhite {
+  background-color: #ffffff;
+}
+
+.txt-DSAred {
+  color: #ec1f27;
+}
+
+.txt-DSAblack {
+  color: #231F20;
+}
+
+.txt-DSAgray {
+	color: #ccc;
+}
+
+.txt-DSAwhite {
+  color: white;
+}
+
+.bg-DSAglass {
+  background-color: rgba(255,255,255,0.85);
+}
+
+.header {
+	padding-top: 20vh;
+	padding-bottom: 10vh;
+}
+
+.issues-list {
+	padding-bottom: 1rem;
+}
+
+.call blockquote {
+	border-left: 4px solid #231F20;
+}
+
+.call hr {
+	border-top: 1px solid #231F20;
+}
+
+.btn-group-vertical .btn {
+	white-space: normal;
+}
+
+@media only screen and (min-width : 320px) {
+	.layout__main {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (min-width : 480px) {
+	.layout__main {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (min-width : 768px) {
+	.layout__main {
+		font-size: 1.5rem;
+	}
+}

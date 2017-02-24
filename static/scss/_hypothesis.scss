@@ -1,0 +1,60 @@
+.hypothesis {
+  color: #fff;
+
+  &__header {
+    margin-bottom: 1.8rem;
+
+    p {
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      line-height: 1.25;
+    }
+  }
+
+  &__text {
+    p {
+      margin-bottom: 2rem;
+      font-size: 1.6rem;
+      line-height: 1.2;
+
+      a {
+        color: #fff;
+        font-weight: 400;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__title {
+    margin: 0.6rem 0 2rem 0;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &__stats {
+    list-style: none;
+    margin: 2rem 0 0 0;
+    padding: 0;
+  }
+
+  &__stat {
+    display: flex;
+
+    > * {
+      display: block;
+      width: 40%;
+      padding: .25rem;
+      font-size: 3.5rem;
+      font-weight: bold;
+    }
+  }
+
+  &__stat-value {
+    text-align: right;
+  }
+
+  &__stat-dd {
+    margin-left: 0.6rem;
+  }
+}
